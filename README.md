@@ -2,7 +2,9 @@
 This repository contains scripts and templates to simplify deployment of the resources described in Citrix's [Deploying Citrix Cloud XenApp and XenDesktop Service on the Google Cloud Platform](https://citrix.sharefile.com/d-sd6bf3fabc954f608) published December 2017.
 
 ## Before you begin
-You'll need a PowerShell environment with the [Google Cloud SDK](https://cloud.google.com/sdk/) installed.
+1. You'll need a PowerShell environment with the [Google Cloud SDK](https://cloud.google.com/sdk/) installed.
+1. Check your local configuration in gcloud
+  1. get your current configuration `gcloud config list`
 
 ## Deploying Citrix
 Clone the repository and run deploy.ps1.
