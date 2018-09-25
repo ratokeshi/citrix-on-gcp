@@ -4,7 +4,7 @@ This repository contains scripts and templates to simplify deployment of the res
 ## Before you begin
 1. You'll need a PowerShell environment with the [Google Cloud SDK](https://cloud.google.com/sdk/) installed.
 1. Check your local configuration in gcloud
-  1. get your current configuration `gcloud config list`
+    a. get your current configuration `gcloud config list`
 
 ## Deploying Citrix
 Clone the repository and run deploy.ps1.
