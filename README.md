@@ -4,11 +4,15 @@ This repository contains scripts and templates to simplify deployment of the res
 ## Before you begin
 1. You'll need a PowerShell environment with the [Google Cloud SDK](https://cloud.google.com/sdk/) installed.
 1. Check your local configuration in gcloud
-   - list all local creentialed accounts `gcloud auth list` 
+   - get your current gcloud version `gcloud version`
+   - update to the current version of the Google Cloud SDK
+      - (if you are running as administrator) `gcloud components update`
+      - if you need to elevate try `start-process  powershell -verb runas`
+   - list all local credentialed accounts `gcloud auth list`
    - get your current configuration `gcloud config list`
    - logout of account (i.e. test@gmail.com) `gcloud auth revoke test@gmail.com`
-   - list avaialable regions `gcloud compute regions list`
-   - set default region (i.e. us-central1) using  `gcloud compute/regions set us-central1` 
+   - list available regions `gcloud compute regions list`
+   - set default region (i.e. us-central1) using  `gcloud compute/regions set us-central1`
    
 
 ## Deploying Citrix
