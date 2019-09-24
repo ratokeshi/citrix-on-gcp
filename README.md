@@ -97,4 +97,14 @@ Copyright 2018, Google, Inc.
 
 Licensed under the Apache License, Version 2.0
 
+If you want to perform theres tasks with the help of a Cloud Shell Tutorial then follow these steps:
+To begin this guide open your Google Cloud Consoles as you normally would.
+1.  If you have issues with the console try using incognito mode and go to https://console.cloud.google.com/
+2.  If you are in the console session of the GCP Console, click the Cloud Shell icn on the top right that looks like this: ![alt text](https://walkthroughs.googleusercontent.com/tutorial/resources/cloud-shell-icon-v1.svg "Cloud Shell Icon on the top right of the GCP Console")
+3.  Enter the following commands to clone this repository and launch the turotial.
+```bash
+git clone https://github.com/ratokeshi/citrix-on-gcp.git && cd citrix-on-gcp && cloudshell launch-tutorial tutorial.md
+```
+
+
 See [LICENSE](LICENSE).
