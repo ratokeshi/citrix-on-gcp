@@ -33,12 +33,22 @@ ls
 ```
 You should see a liskt of .ps1 files as well as this tutorial.md file.
 
+You can install the Powershell tools in this shell by runnig this command:
+```bash
+sudo apt-get install -y powershell
+```
+
+After it completes you will be able to switch into the PowerShell environment using this command:
+```bash
+pwsh
+```
+
 Run deploy.ps1.
-```powershell
+```bash
 .\deploy.ps1
 ```
 
 If you want to set the "UseMinimalResources" parameter to True, you can get a  "light weight" deployment.
-```powershell
+```bash
 .\deploy.ps1 -UseMinimalResources $True
 ```
