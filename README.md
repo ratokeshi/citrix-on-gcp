@@ -105,6 +105,7 @@ To begin this guide open your Google Cloud Consoles as you normally would.
 ```bash
 git clone https://github.com/ratokeshi/citrix-on-gcp.git && cd citrix-on-gcp && cloudshell launch-tutorial tutorial.md
 ```
-
+To begin the tutorial in your currently authenticated Google account, click on the button given below:
+[![Open in Cloud Shell](http://gstatic.com/cloudssh/images/open-btn.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/ratokeshi/citrix-on-gcp&tutorial=tutorial.md)
 
 See [LICENSE](LICENSE).
