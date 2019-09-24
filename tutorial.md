@@ -21,4 +21,24 @@ Output:
 
 [core]
 project = <project_ID>
-Example output:
+
+If you have valid settings for your project you can proced with launching the setup scripts in the next section.
+
+## Clone the Repository and Deploy ##
+
+You should have the full repository already in your home directory.  
+Examine your local files using the following command:
+```bash
+ls
+```
+You should see a liskt of .ps1 files as well as this tutorial.md file.
+
+Run deploy.ps1.
+```powershell
+.\deploy.ps1
+```
+
+If you want to set the "UseMinimalResources" parameter to True, you can get a  "light weight" deployment.
+```powershell
+.\deploy.ps1 -UseMinimalResources $True
+```
